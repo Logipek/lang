@@ -1,59 +1,59 @@
 module.exports = {
     global: {
-        successful: "Successful.",
-        something_went_wrong: "Something went wrong.",
-        you_are_banned: "You are banned from Giftix!",
-        beta_mode: "Giftix is currently in beta mode, you must be a beta user to access it.",
-        maintenance_mode: "We are currently doing maintenance to improve our systems, please try later."
+        successful: "Succès.",
+        something_went_wrong: "Une erreur est survenue.",
+        you_are_banned: "vous êtes actuellement banni de Giftix!",
+        beta_mode: "L'accès a cette partie du site vous a été refusé car il est actuellement en mode bêta.",
+        maintenance_mode: "Notre équipe effectue actuellement une maintenance sur le site web, l'accès ne peut donc se faire merci de votre compréhension."
     },
     server: {
-        no_token_provided: "No authorization token provided!",
-        not_found: "404: Route does not exist."
+        no_token_provided: "Aucun token n'a été fournie :(",
+        not_found: "404: La page que vous demandez n'a pas été trouver."
     },
     guilds: {
         channels: {
-            not_found: "Guild not found!"
+            not_found: "Le channel demandé n'a pas été trouver !"
         }
     },
     requireds: {
         github: {
-            connect_account: "Connect your GitHub account to join in the giveaway.",
-            follow_account: "Follow the GitHub profile to join the giveaway."
+            connect_account: "Pour pouvoir participer au tirage au sort merci de connecter votre compte Github pour pouvoir le rejoindre.",
+            follow_account: "Merci de suivre le profil Github pour pouvoir participer au tirage au sort."
         },
         youtube: {
-            connect_account: "Connect your YouTube account to join in the giveaway.",
-            terminated: "Your YouTube session has been terminated, log in again.",
-            subscribe_channel: "Subscribe to the YouTube channel to join the giveaway."
+            connect_account: "Pour pouvoir participer au tirage au sort merci de connecter votre compte Youtube pour pouvoir le rejoindre.",
+            terminated: "Votre session YouTube est terminée, merci de vous reconnectez.",
+            subscribe_channel: "Merci de suivre la chaine Youtube pour pouvoir participer au tirage au sort."
         }
     },
     giveaway: {
         cancel: {
-            not_found: "Giveaway not found!",
-            bot_not_found: "The bot was not found on the guild!",
-            user_not_found: "You're not in the guild!"
+            not_found: "Impossible de trouver le tirage au sort !",
+            bot_not_found: "Le bot officiel n'est pas présent sur le serveur !",
+            user_not_found: "Vous n'êtes pas présent sur le serveur en question!"
         },
         create: {
-            not_found: "Guild not found!",
-            user_not_found: "You're not in the guild!",
-            channel_not_found: "Channel not found!",
-            giveaway_not_found: "Giveaway not found!",
-            access_denied: "Access denied!",
-            channel_type: "Channel type must be text!",
-            winners_min: "Winners count minumum must be 1!",
-            winners_max: "Winners count maximum must be 10!",
-            duration_min: "Duration minumum must be 1 minute!",
-            duration_max: "Duration maximum must be 3 months!",
-            limit: "Giveaway limit reached!",
-            connect_account: "You haven't linked your account!",
-            no_access: "Bot has no access to the channel!",
-            specify: "Please specify a {PARAM}!"
+            not_found: "Le serveur demandé est introuvable!",
+            user_not_found: "Vous n'êtes pas présent sur le serveur!",
+            channel_not_found: "Le channel demandé n'a pas pu être trouvé!",
+            giveaway_not_found: "le tirage au sort n'a pas été trouver !",
+            access_denied: "Vous ne disposez pas des rôles naissésaire pour pouvoir accéder à la page!",
+            channel_type: "Le channel inscrit n'est pas un channel textuel!",
+            winners_min: "Vous devez mettre minimum un gagnant!",
+            winners_max: "Le nombre maximum de gagnant est de 10!",
+            duration_min: "La durée minimum pour un tirage au sort est de 1 minute!",
+            duration_max: "La durée maximum pour un tirage au sort est de 3 mois!",
+            limit: "Vous venez d'attendre la limite de tirage au sort !",
+            connect_account: "Vous n'avez lié aucun compte!",
+            no_access: "Le bot ne peut pas accéder au channel inscrit !",
+            specify: "Merci de spécifier un {PARAM}!"
         },
         join: {
-            not_found: "Giveaway not found!",
-            joined: "You've already joined the giveaway!"
+            not_found: "Le tirage au sort n'est pas trouvable!",
+            joined: "Vous avez déjà rejoint le tirage au sort !"
         },
         overview: {
-            not_found: "Giveaway not found!"
+            not_found: "Le tirage au sort n'est pas trouvable!"
         }
     }
 };
